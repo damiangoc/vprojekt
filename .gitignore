@@ -3,3 +3,6 @@
 /plugins
 /vendors
 !/app/config/
+!/plugins/
+!/vendors/
+!/app/tmp/

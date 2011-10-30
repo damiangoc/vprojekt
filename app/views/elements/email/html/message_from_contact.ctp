@@ -1,2 +1,2 @@
 Treść wiadomości: <br />
-<?php echo $content ?>
+<?php echo $tresc; ?>

@@ -1,2 +1,3 @@
+Od: <?php echo $from; ?><br />
 Treść wiadomości: <br />
-<?php echo $tresc; ?>
+<?php echo $message; ?>

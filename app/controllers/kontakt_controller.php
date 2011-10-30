@@ -20,7 +20,8 @@ class KontaktController extends AppController
         $this->Email->cc ='damiangoc@o2.pl';
         $this->Email->subject = $email['subject'];
         $this->Email->from = $email['userEmail'];
-        $this->set('tresc', $email['content']);
+        $this->set('from', $email['userEmail']);
+        $this->set('message', $email['content']);
         $this->Email->template = 'message_from_contact'; // note no '.ctp'
         //Send as 'html', 'text' or 'both' (default is 'text')
         $this->Email->sendAs = 'both'; // because we like to send pretty mail

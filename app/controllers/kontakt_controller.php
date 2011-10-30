@@ -14,9 +14,10 @@ class KontaktController extends AppController
         if (!count($_POST)) {
             $this->redirect(array('action' => 'view'));
         }
-
+        
         $email = $_POST;
-        $this->Email->to = 'damiangoc@o2.pl';//'violamd@interia.pl';
+        $this->Email->to = 'violamd@interia.pl';
+        $this->Email->cc ='damiangoc@o2.pl';
         $this->Email->subject = $email['subject'];
         $this->Email->from = $email['userEmail'];
         $this->set('content', $email['content']);

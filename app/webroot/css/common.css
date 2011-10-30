@@ -86,6 +86,33 @@ BODY {
 #rightSide {
     float: right;
 }
+#rightSide h2 {
+    font-size: 16px;
+    margin: 20px 20px 10px;
+}
+#rightSide form {
+    padding: 20px 20px;
+}
+form > div {
+    padding-bottom: 20px; 
+}
+form label {
+    display: inline-block;
+    width: 100px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 10px;
+}
+form input[type="text"], form textarea {
+    width: 400px;
+    border: 2px solid #AAA;
+}
+form input[type="text"]:focus, form textarea:focus {
+    border: 2px solid #FFF;
+}
+form textarea {
+    height: 200px;
+}
 #rightSide ul {
     list-style: none outside none;
     margin-top: 20px;

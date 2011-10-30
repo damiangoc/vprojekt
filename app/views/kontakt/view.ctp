@@ -18,4 +18,6 @@ $this->set('keywords_for_layout', 'meble kuchenne, pokojowe, łazienkowe, biurow
         609969704
     </p>
 </div>
-<div id="rightSide" class="wildRight"></div>
+<div id="rightSide" class="wildRight">
+    <?php echo $this->element('emailForm');?>
+</div>

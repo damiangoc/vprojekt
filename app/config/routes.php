@@ -31,6 +31,7 @@
 	Router::connect('/onas.html', array('controller' => 'onas', 'action' => 'view'));
 	Router::connect('/oferta.html', array('controller' => 'oferta', 'action' => 'view'));
 	Router::connect('/kontakt.html', array('controller' => 'kontakt', 'action' => 'view'));
+	Router::connect('/zapytanie_wyslane.html', array('controller' => 'kontakt', 'action' => 'send'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */

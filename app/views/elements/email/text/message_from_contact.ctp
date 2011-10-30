@@ -1,1 +1,2 @@
-<?php echo $content ?>
+Treść wiadomości: 
+    <?php echo $content ?>

@@ -3,5 +3,5 @@
     <div><label>Twój email:</label><input type="text" value="" name="userEmail" /></div>
     <div><label>Temat:</label><input type="text" value="" name="subject" /></div>
     <div><label>Treść:</label><textarea name="content"></textarea></div>
-    <div><input type="submit" id="sendEmail" value="Wyślij"></div>
+    <div><label>&nbsp;</label><input type="submit" id="sendEmail" value="Wyślij"></div>
 </form>

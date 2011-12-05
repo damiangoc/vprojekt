@@ -97,9 +97,6 @@ BODY {
 #rightSide form {
     padding: 20px 20px;
 }
-form > div {
-    padding-bottom: 20px; 
-}
 form label {
     display: inline-block;
     width: 100px;
@@ -126,6 +123,17 @@ form input[type="text"]:focus, form textarea:focus {
 }
 form textarea {
     height: 200px;
+}
+form .invalid {
+    border: 2px solid #D65656 !important;
+}
+form .error {
+    color: #D65656;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 0 0 116px;
 }
 #rightSide ul {
     list-style: none outside none;

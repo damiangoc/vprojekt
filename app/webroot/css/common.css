@@ -44,7 +44,7 @@ BODY {
 .slogan {
     clear: both;
     color: #CCCCCC;
-    font-style: italic;
+    font-family: Verdana;
 }
 #content {
     background-color: #CCCCCC;

@@ -29,4 +29,6 @@ $this->set('keywords_for_layout', 'meble kuchenne, pokojowe, łazienkowe, biurow
         Proponujemy nowatorskie rozwiązania by wnętrze zachwycało i było w pełni ergonomiczne.
     </p>
 </div>
-<div id="rightSide" class="narrowRight"></div>
+<div id="rightSide" class="narrowRight">
+    <?php echo $this->element('dcarousel');?>
+</div>

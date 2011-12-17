@@ -7,3 +7,6 @@
     <a href="/kontakt.html"><img src="img/kontakt3.png" /></a>
     <a href="/realizacje.html"><img src="img/realizacje3.png" /></a>
 </div>
+<div class="slogan">
+Zaprojektujemy oraz wykonamy meble Twoich marzeń
+</div>

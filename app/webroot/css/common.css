@@ -13,7 +13,7 @@ BODY {
 #header {
     margin: 20px 0;
     overflow: hidden;
-    height: 41px;
+    height: 61px;
 }
 .logo {
     height: 41px;
@@ -40,6 +40,11 @@ BODY {
 .menu a:hover {
     background-color: #444444;
     text-decoration: none;
+}
+.slogan {
+    clear: both;
+    color: #CCCCCC;
+    font-style: italic;
 }
 #content {
     background-color: #CCCCCC;

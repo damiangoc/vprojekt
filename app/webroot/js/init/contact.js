@@ -7,7 +7,7 @@ $(function() {
         $(this).dvalidate();
         $(this).dvalidate('checkEmailContent');
     });
-    $('#contact').click(function(event) {
+    $('#contact #sendEmail').click(function(event) {
         event.preventDefault();
         var self = this;
         $(this).dvalidate();

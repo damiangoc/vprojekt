@@ -7,12 +7,21 @@ $(function() {
         $(this).dvalidate();
         $(this).dvalidate('checkEmailContent');
     });
-    $('#contact').submit(function(event) {
+    $('#contact').click(function(event) {
         event.preventDefault();
         var self = this;
         $(this).dvalidate();
         if ($('#email').dvalidate('checkEmail') && $('#email_content').dvalidate('checkEmailContent')) {
-            self.submit();
+            var popupSettings = {
+                popupHeaderText: "Twoja wiadomość",
+                popupEmailText: $('#email_content').val(),
+                popupButtonConfirmText: "Wyślij",
+                popupButtonCancelText: "Anuluj",
+                callElement: self,
+                callElementFunction: 'submit'
+            };
+            $(self).dpopup(popupSettings);
+            $(self).dpopup('showPopup');
         }
     });
 });

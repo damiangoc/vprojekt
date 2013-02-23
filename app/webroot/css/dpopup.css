@@ -31,9 +31,12 @@
     padding: 5px 15px;
 }
 #dpopup-buttons-container {
-    position: absolute;
+    border-top: 1px solid #AAAAAA;
     bottom: 10px;
-    width: 100%;
+    margin-left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    width: 380px;
 }
 #dpopup-buttons {
     text-align: center;
